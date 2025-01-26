@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+}
+h1 {
+    font-size: 24px;
+}
+label {
+    display: block;
+    margin: 10px 0;
+    font-weight: bold;
+}
+input[type="range"] {
+    width: 80%;
+    cursor: pointer;
+}
+#plot {
+    margin-top: 20px;
+}
+@media (max-width: 600px) {
+    .container {
+        width: 95%;
+    }
+    h1 {
+        font-size: 20px;
+    }
+}
